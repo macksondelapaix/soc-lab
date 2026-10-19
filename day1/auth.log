@@ -1,0 +1,59 @@
+Oct  9 02:01:00 lab-web-02 sshd[3019]: Failed password for invalid user oracle from 198.51.100.9 port 44630 ssh2
+Oct  9 02:30:00 lab-web-02 sshd[3161]: Failed password for alice from 198.51.100.77 port 50001 ssh2
+Oct  9 02:30:11 lab-web-02 sshd[3170]: Failed password for bob from 198.51.100.77 port 50002 ssh2
+Oct  9 02:30:22 lab-web-02 sshd[3177]: Failed password for backup from 198.51.100.77 port 50003 ssh2
+Oct  9 02:30:33 lab-web-02 sshd[3184]: Failed password for deploy from 198.51.100.77 port 50004 ssh2
+Oct  9 02:30:44 lab-web-02 sshd[3191]: Failed password for jsmith from 198.51.100.77 port 50005 ssh2
+Oct  9 02:30:55 lab-web-02 sshd[3198]: Failed password for mchirwa from 198.51.100.77 port 50006 ssh2
+Oct  9 02:31:06 lab-web-02 sshd[3200]: Failed password for intern from 198.51.100.77 port 50007 ssh2
+Oct  9 02:31:17 lab-web-02 sshd[3208]: Failed password for alice from 198.51.100.77 port 50008 ssh2
+Oct  9 02:31:28 lab-web-02 sshd[3215]: Failed password for bob from 198.51.100.77 port 50009 ssh2
+Oct  9 02:31:39 lab-web-02 sshd[3216]: Failed password for backup from 198.51.100.77 port 50010 ssh2
+Oct  9 02:31:50 lab-web-02 sshd[3220]: Failed password for deploy from 198.51.100.77 port 50011 ssh2
+Oct  9 02:32:01 lab-web-02 sshd[3222]: Failed password for jsmith from 198.51.100.77 port 50012 ssh2
+Oct  9 02:32:12 lab-web-02 sshd[3226]: Failed password for mchirwa from 198.51.100.77 port 50013 ssh2
+Oct  9 02:32:23 lab-web-02 sshd[3234]: Failed password for intern from 198.51.100.77 port 50014 ssh2
+Oct  9 02:32:34 lab-web-02 sshd[3237]: Failed password for alice from 198.51.100.77 port 50015 ssh2
+Oct  9 02:32:45 lab-web-02 sshd[3239]: Failed password for bob from 198.51.100.77 port 50016 ssh2
+Oct  9 02:32:56 lab-web-02 sshd[3245]: Failed password for backup from 198.51.100.77 port 50017 ssh2
+Oct  9 02:33:07 lab-web-02 sshd[3246]: Failed password for deploy from 198.51.100.77 port 50018 ssh2
+Oct  9 02:33:18 lab-web-02 sshd[3248]: Failed password for jsmith from 198.51.100.77 port 50019 ssh2
+Oct  9 02:33:29 lab-web-02 sshd[3249]: Failed password for mchirwa from 198.51.100.77 port 50020 ssh2
+Oct  9 02:33:40 lab-web-02 sshd[3252]: Accepted password for intern from 198.51.100.77 port 50021 ssh2
+Oct  9 02:33:41 lab-web-02 sshd[3252]: pam_unix(sshd:session): session opened for user intern(uid=1004) by intern(uid=0)
+Oct  9 02:34:20 lab-web-02 sudo:   intern : TTY=pts/1 ; PWD=/home/intern ; USER=root ; COMMAND=list
+Oct  9 02:35:15 lab-web-02 sudo:   intern : TTY=pts/1 ; PWD=/tmp ; USER=root ; COMMAND=/usr/bin/find / -perm -4000 -type f
+Oct  9 02:37:45 lab-web-02 sudo:   intern : TTY=pts/1 ; PWD=/tmp ; USER=root ; COMMAND=/usr/sbin/useradd -m -s /bin/bash sysupd
+Oct  9 02:37:46 lab-web-02 useradd[3269]: new user: name=sysupd, UID=1010, GID=1010, home=/home/sysupd, shell=/bin/bash, from=/dev/pts/1
+Oct  9 02:38:10 lab-web-02 sudo:   intern : TTY=pts/1 ; PWD=/tmp ; USER=root ; COMMAND=/usr/sbin/usermod -aG sudo sysupd
+Oct  9 02:42:40 lab-web-02 sshd[3252]: pam_unix(sshd:session): session closed for user intern
+Oct  9 02:45:00 lab-web-02 sshd[3105]: Failed password for invalid user user from 192.0.2.14 port 56322 ssh2
+Oct  9 02:47:00 lab-web-02 sshd[3052]: Invalid user pi from 198.51.100.9 port 64419
+Oct  9 03:12:00 lab-web-02 sshd[3011]: Invalid user admin from 203.0.113.201 port 63255
+Oct  9 04:24:00 lab-web-02 sshd[3102]: Invalid user ubuntu from 198.51.100.9 port 56076
+Oct  9 07:52:00 lab-web-02 sshd[3116]: Invalid user oracle from 192.0.2.14 port 41548
+Oct  9 08:02:00 lab-web-02 sshd[3119]: Accepted publickey for alice from 10.10.5.20 port 40596 ssh2: ED25519 SHA256:Qm7tLx...
+Oct  9 08:02:25 lab-web-02 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+Oct  9 08:20:00 lab-web-02 sshd[3127]: Accepted publickey for alice from 10.10.5.20 port 40104 ssh2: ED25519 SHA256:Qm7tLx...
+Oct  9 08:20:25 lab-web-02 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt upgrade -y
+Oct  9 09:42:00 lab-web-02 sshd[3089]: Invalid user git from 198.51.100.9 port 52741
+Oct  9 11:03:00 lab-web-02 sshd[3009]: Invalid user git from 192.0.2.14 port 33164
+Oct  9 11:40:00 lab-web-02 sshd[3057]: Invalid user user from 192.0.2.14 port 57636
+Oct  9 12:07:00 lab-web-02 sshd[3094]: Invalid user oracle from 192.0.2.14 port 62354
+Oct  9 12:20:00 lab-web-02 sshd[3046]: Failed password for invalid user ubuntu from 203.0.113.201 port 41781 ssh2
+Oct  9 12:42:00 lab-web-02 sshd[3034]: Failed password for invalid user oracle from 192.0.2.14 port 33906 ssh2
+Oct  9 13:05:00 lab-web-02 sshd[3152]: Failed password for alice from 10.10.5.20 port 40877 ssh2
+Oct  9 13:05:09 lab-web-02 sshd[3153]: Accepted password for alice from 10.10.5.20 port 40879 ssh2
+Oct  9 14:41:00 lab-web-02 sshd[3112]: Failed password for invalid user pi from 198.51.100.9 port 57216 ssh2
+Oct  9 14:48:00 lab-web-02 sshd[3018]: Invalid user oracle from 203.0.113.201 port 45772
+Oct  9 15:19:00 lab-web-02 sshd[3055]: Failed password for invalid user oracle from 203.0.113.201 port 37737 ssh2
+Oct  9 16:36:00 lab-web-02 sshd[3140]: Accepted publickey for alice from 10.10.5.20 port 40478 ssh2: ED25519 SHA256:Qm7tLx...
+Oct  9 16:36:25 lab-web-02 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Oct  9 18:08:00 lab-web-02 sshd[3042]: Failed password for invalid user postgres from 203.0.113.201 port 60513 ssh2
+Oct  9 19:00:00 lab-web-02 sshd[3022]: Invalid user pi from 192.0.2.14 port 57468
+Oct  9 19:02:00 lab-web-02 sshd[3065]: Failed password for invalid user postgres from 198.51.100.9 port 52290 ssh2
+Oct  9 19:29:00 lab-web-02 sshd[3026]: Failed password for invalid user test from 203.0.113.201 port 36753 ssh2
+Oct  9 19:41:00 lab-web-02 sshd[3020]: Failed password for invalid user git from 198.51.100.9 port 33249 ssh2
+Oct  9 19:47:00 lab-web-02 sshd[3073]: Failed password for invalid user oracle from 203.0.113.201 port 36133 ssh2
+Oct  9 21:12:00 lab-web-02 sshd[3283]: Accepted password for sysupd from 203.0.113.88 port 61022 ssh2
+Oct  9 22:40:00 lab-web-02 sshd[3081]: Failed password for invalid user admin from 192.0.2.14 port 50290 ssh2
