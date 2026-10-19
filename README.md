@@ -10,13 +10,13 @@ Each case starts from raw logs or traffic, works through the evidence, and ends 
 
 | # | Case | Data | Skills |
 |---|------|------|--------|
-| 001 | [SSH password spray and persistence account](cases/case-001-ssh-spray/report.md) | Linux `auth.log` | grep/awk log analysis, pivoting, timeline, careful reporting |
+| 001 | [SSH password spray and persistence account](day1/report.md) | Linux `auth.log` | grep/awk log analysis, pivoting, timeline, careful reporting |
 
 ## Tools
 `grep`, `awk`, `sort`, `uniq`, `journalctl` · (coming: Wireshark/tshark, Elastic Security, Sigma)
 
 ## Structure
 ```
-cases/       one folder per investigation (report + evidence)
-templates/   the report template I use
+dayxx/      one folder per investigation (evidence file + writeup) e.g day1
+template.md:  the reporting template I use throughout the journey
 ```
