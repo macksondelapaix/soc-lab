@@ -17,6 +17,6 @@ Each case starts from raw logs or traffic, works through the evidence, and ends 
 
 ## Structure
 ```
-dayxx/      one folder per investigation (evidence file + writeup) e.g day1
+dayxx/      one folder per investigation (evidence file + writeup + walk through woth instructions on the lab) e.g day1
 template.md:  the reporting template I use throughout the journey
 ```
