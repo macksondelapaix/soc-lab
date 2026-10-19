@@ -16,8 +16,7 @@ they created a new account *sysupd* and gave it sudo privileges which allow it t
 do alot of things. Now from a separate Ip address
 *203.0.113.88*, sysupd logged in. 
 
-## Timeline(UTC)
-> October 9 2026
+## Timeline(UTC)  October 9 2026
 |Time|What the log show|
 |---|---|
 |02:30:00 - 02:33:40 | Passwords guessed for multiple accounts(failed passwords) |
